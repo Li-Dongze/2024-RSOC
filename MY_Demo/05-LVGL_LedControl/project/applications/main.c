@@ -33,11 +33,11 @@
 #define THREAD1_TIMESLICE        5
 /* tid_led线程参数 */
 #define THREAD2_PRIORITY         25
-#define THREAD2_STACK_SIZE       1024
+#define THREAD2_STACK_SIZE       512
 #define THREAD2_TIMESLICE        5
 /* tid_aht10线程参数 */
 #define THREAD3_PRIORITY         25
-#define THREAD3_STACK_SIZE       2048
+#define THREAD3_STACK_SIZE       1024
 #define THREAD3_TIMESLICE        5
 
 extern aht10_device_t Dev;

@@ -1,0 +1,1 @@
+GEN_CSRCS += _1_alpha_94x67.c

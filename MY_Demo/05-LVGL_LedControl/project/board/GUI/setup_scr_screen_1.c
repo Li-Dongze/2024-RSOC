@@ -302,6 +302,7 @@ void setup_scr_screen_1(lv_ui *ui)
 	lv_obj_set_style_text_align(ui->screen_1_btn_white, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
 	//The custom code of screen_1.
+	// 添加到组
 	lv_group_add_obj(group_screen1, ui->screen_1_btn_AllBlue);
     lv_group_add_obj(group_screen1, ui->screen_1_btn_AllGreen);
     lv_group_add_obj(group_screen1, ui->screen_1_btn_AllRed);
